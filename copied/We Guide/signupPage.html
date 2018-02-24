@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WeGuide SignUp</title>
+	<style type="text/css">
+	body{
+		background-image: url(Signal_Hill.jpg);
+		background-size: cover;
+	
+	}
+	.header{
+		
+		height:auto;
+		font-family:Impact, Charcoal, sans-serif;
+		font-size: 200%;
+		font-weight: bold;
+		letter-spacing: 7px;
+		word-spacing: 3px;
+		text-shadow: 9px 9px 5px #333;
+		text-align: center;
+		color: white;
+		
+	}
+	
+	.loginContainer{
+		width : 300px;
+		height : 370px;
+		background-color: rgba(0,0,0,0.5);
+		margin:0 auto;
+		margin-top:100px;
+		padding-top: 10px;
+		padding-left: 50px;
+		border-radius: 15px;
+		-webkit-border-radius:15px;
+		-o-border-radius:15px;
+		-moz-border-radius:15px;
+		color:white;
+		font-weight: bolder;
+		box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+		font-size: 18px;
+	}
+	.loginContainer input[type="email"]{
+		width: 200px;
+		height: 35px;
+		border: 0;
+		border-radius: 5px;
+		-webkit-border-radius:5px;
+		-o-border-radius:5px;
+		-moz-border-radius:5px;
+		padding-left: 5px;
+	}
+	.loginContainer input[type="text"]{
+		width: 200px;
+		height: 35px;
+		border: 0;
+		border-radius: 5px;
+		-webkit-border-radius:5px;
+		-o-border-radius:5px;
+		-moz-border-radius:5px;
+		padding-left: 5px;
+	}
+	.loginContainer input[type="password"]{
+		width: 200px;
+		height: 35px;
+		border: 0;
+		border-radius: 5px;
+		-webkit-border-radius:5px;
+		-o-border-radius:5px;
+		-moz-border-radius:5px;
+		padding-left: 5px;
+	}
+	.loginContainer input[type="button"]{
+		width: 100px;
+		height: 35px;
+		border: 0;
+		border-radius: 5px;
+		-webkit-border-radius:5px;
+		-o-border-radius:5px;
+		-moz-border-radius:5px;
+		background-color: #4da6ff;
+		font-weight: bolder;
+	}
+	input:valid{
+		background-image: url(tick.png);
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: 20%;
+	}
+	input:invalid{
+		background-image: url(warning.png);
+		background-repeat: no-repeat;
+		background-position: right;
+		background-size: 10%;
+	}
+	</style>
+</head>
+<body>
+<div class="header">
+<h1>We Guide</h1>
+</div>
+<div class="loginContainer">
+<h2>Enter your information</h2>
+<form>
+	<input type="text" placeholder="Enter Username..." required><br><br>
+	<input type="email" placeholder="Enter Email..." required><br><br>
+	<input type="password" placeholder="Enter Password..." required><br><br>
+	<input type="radio" name="radio">I am a tourist<br>
+	<input type="radio" name="radio">I am a guide<br><br>
+	<input type="button" value="Submit">
+</form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+body {
+  background-image: url(img/nl.jpg);
+  background-size: cover;
+}
+.header{
+
+		height:auto;
+		margin-top:70px;
+		text-shadow: 9px 9px 5px #333;
+		text-align: center;
+		
+
+	}
+  #footer{
+		bottom:0;
+		background-color:rgba(128,175,191);
+		width: 100%;
+		color: white;
+		border-top:3px solid white;
+		height: auto;
+		text-align: right;
+		position: fixed;
+	}
+  #footer p{
+		font-size:15px;
+		text-transform: uppercase;
+		padding: 2px 10px 2px 0px;
+	}
+
+.loginContainer{
+		width : 340px;
+		height : 400px;
+		background-color: rgba(0,0,0,0.5);
+		margin:0 auto;
+		margin-top:70px;
+		padding-top: 10px;
+		padding-left: 50px;
+		border-radius: 15px;
+		-webkit-border-radius:15px;
+		-o-border-radius:15px;
+		-moz-border-radius:15px;
+		color:white;
+		font-weight: bolder;
+		box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+		font-size: 18px;
+	}
+  .loginContainer input[type="text"]{
+    width: 200px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    -moz-border-radius:5px;
+    padding-left: 5px;
+  }
+	.loginContainer input[type="email"]{
+		width: 280px;
+		height: 35px;
+		border: 0;
+		border-radius: 5px;
+		-webkit-border-radius:5px;
+		-o-border-radius:5px;
+		-moz-border-radius:5px;
+		padding-left: 5px;
+	}
+	.loginContainer input[type="password"]{
+		width: 280px;
+		height: 35px;
+		border: 0;
+		border-radius: 5px;
+		-webkit-border-radius:5px;
+		-o-border-radius:5px;
+		-moz-border-radius:5px;
+		padding-left: 5px;
+	}
+  .loginContainer input[type="submit"]{
+    width: 100px;
+    height: 35px;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    -moz-border-radius:5px;
+    background-color: #e6005c;
+    font-weight: bolder;
+  }
+
+	.loginContainer input[type="button"]{
+		width: 150px;
+		height: 35px;
+		border: 0;
+		border-radius: 5px;
+		-webkit-border-radius:5px;
+		-o-border-radius:5px;
+		-moz-border-radius:5px;
+		background-color: #e6005c;
+		font-weight: bolder;
+	}
